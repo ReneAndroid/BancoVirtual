@@ -1,0 +1,23 @@
+typedef struct
+{
+	long int numero;
+	int agencia;
+	int senha;
+	float saldo;
+}Contas;
+
+typedef struct
+{
+	char[30] nome;
+	char cpf[11];
+	int acessos;
+	Contas conta;
+}Clientes;
+
+typedef struct
+{
+	char[30] nome;
+	char[11] cpf;
+	int senha;
+	int agencia;	
+}Funcionario;
